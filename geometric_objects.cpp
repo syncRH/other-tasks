@@ -1,3 +1,16 @@
+/*
+Develop a C++ program:
+1. Support several types of 2D curves – circle, ellipse, (optional) simple polyline.
+2. Support a type of 3D Surface – sphere.
+3. Fill the container (std :: vector or std :: list) with pointers to the objects mentioned above
+types in random order with random parameters.
+4. Calculate the length or area of all obtained geometric objects.
+5. (optional) Create colors, that can be attached to the any geometric objects by smart pointer
+Requirements:
+1. There should be no memory leaks.
+2. Curves must be physically correct (i.e. radius are positive)
+Result of activity: source code
+*/
 #include <iostream>
 #include <vector>
 #include <cmath>
