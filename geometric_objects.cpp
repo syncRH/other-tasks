@@ -62,7 +62,7 @@ long double areaObj(std::vector <geometricObjects> vector_storing_objects, int n
 	for (int i = 0; i < numberObjects; i++)
 	{
 		geometricObjects temp_obj = vector_storing_objects[i];
-		temp_areaObj = temp_obj.areaCicle() + temp_obj.areaEllipse() + temp_obj.areaSphere();
+		temp_areaObj += temp_obj.areaCicle() + temp_obj.areaEllipse() + temp_obj.areaSphere();
 	}
 	return temp_areaObj;
 }
