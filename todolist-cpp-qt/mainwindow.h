@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 #include <vector>
+#include <QListWidgetItem>
+#include <QFlags>
+#include "mydialog.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -15,12 +19,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
-
 private slots:
 
 
     void on_inputTask_editingFinished();
+    void on_listWidget_itemChanged(QListWidgetItem *item);
+    void on_listWidget_itemDoubleClicked(QListWidgetItem *item);
 
 private:
     Ui::MainWindow *ui;

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>423</width>
-    <height>622</height>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>50</y>
+      <y>60</y>
       <width>421</width>
       <height>561</height>
      </rect>
@@ -26,24 +26,6 @@
     <property name="styleSheet">
      <string notr="true">font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
-    <item>
-     <property name="text">
-      <string>Новый элемент</string>
-     </property>
-     <property name="font">
-      <font>
-       <strikeout>true</strikeout>
-      </font>
-     </property>
-     <property name="flags">
-      <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Новый элемент</string>
-     </property>
-    </item>
    </widget>
    <widget class="QLineEdit" name="inputTask">
     <property name="geometry">
@@ -61,7 +43,23 @@
      <string notr="true">font: 21pt &quot;Palatino Linotype&quot;;</string>
     </property>
     <property name="text">
-     <string>sdfsd</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>290</y>
+      <width>167</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
     </property>
    </widget>
   </widget>
